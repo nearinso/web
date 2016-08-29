@@ -1,0 +1,79 @@
+body{
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+background-color: #141413;
+/*background-image: url("tlo.jpg");*/
+}
+
+/*browser border compatibility?*/
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+}
+
+
+
+.kontyner{
+	width: 80%;
+	height:800px;
+	background-color: white;
+	border: 1px solid black;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	box-shadow: 3px 10px 7px -6px rgba(0,0,0,0.75);
+	
+}
+
+.web{
+	width: 10%;
+	height: 35px;
+	background-color: #45453F;
+	margin-left:69.5%;
+	position: absolute;
+	border-radius: 60px 60px 0px 0px;
+	margin-top: -34px;
+	text-align: center;
+	font-size: 25px;
+		
+
+
+}
+
+.graphic{
+	width: 10%;
+	height: 35px;
+	background-color: #fff;
+	margin-left:59%;
+	position: absolute;
+	border-radius: 60px 60px 0px 0px;
+	margin-top: -34px;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+.photo{
+	width: 10%;
+	height: 35px;
+	background-color: #45453F;
+	margin-left:48.5%;
+	position: absolute;
+	border-radius: 60px 60px 0px 0px;
+	margin-top: -34px;
+	text-align: center;
+	font-size: 25px;
+
+
+}
+
+nav{
+
+}
+
+a{
+  text-decoration: none;
+	color:black;
+}

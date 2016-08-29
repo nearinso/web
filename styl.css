@@ -1,0 +1,229 @@
+body{
+font-family: 'Lato', sans-serif;
+font-size: 16px;
+background-color: #141413;
+/*background-image: url("tlo.jpg");*/
+}
+
+/*browser border compatibility?*/
+*{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+}
+
+
+/*first layer*/	
+#tag {
+background-color:#45453F;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 26%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  box-shadow: 1px 7px 17px -4px rgba(0,0,0,0.54);
+  opacity: 0.90;
+  border-radius: 10%;
+   
+ }
+
+#pierwsze {
+background-color:#45453F;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 38%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  box-shadow: 1px 7px 17px -4px rgba(0,0,0,0.54);
+  opacity: 0.90;
+  border-radius: 10%;
+}
+
+#drugie {
+	background-color:#45453F;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  box-shadow: 1px 7px 17px -4px rgba(0,0,0,0.54);
+  opacity: 0.90;
+  border-radius: 10%;
+}
+
+#trzecie {
+background-color:#45453F;	
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 62%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  box-shadow: 1px 7px 17px -4px rgba(0,0,0,0.54);
+  opacity: 0.90;
+  border-radius: 10%;
+}
+
+#czwarte {
+	background-color:#45453F;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 74%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  box-shadow: 1px 7px 17px -4px rgba(0,0,0,0.54);
+  opacity: 0.90;
+  border-radius: 10%;
+}
+
+/*second layer*/
+
+#tag1 {
+background-color:black;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 16;
+  top: 50%;
+  left: 26%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  border-radius: 10%;
+
+}
+
+#pierwsze1 {
+background-color:black;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 16;
+  top: 50%;
+  left: 38%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  border-radius: 10%;
+  
+}
+
+#drugie2 {
+	background-color:black;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  border-radius: 10%;
+  
+}
+
+#trzecie3 {
+background-color:black;	
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 15;
+  top: 50%;
+  left: 62%;
+  margin: -100px 0 0 -150px;
+  font-size: 150px;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  border-radius: 10%;
+ 
+}
+
+#czwarte4 {
+background-color:black;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 17;
+  top: 50%;
+  left: 74%;
+  margin: -100px 0 0 -150px;
+  font-size: 40px;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  border-radius: 10%;
+
+  }
+
+/*tekst in second layer*/
+p{
+	font-size: 40px;
+	text-align: center;
+	margin-top:50%;
+}
+
+#tag1:hover{
+	opacity:0.8;
+	
+}
+
+#pierwsze1:hover{
+	opacity:0.8;
+	
+}
+
+
+
+#drugie2:hover{
+	opacity:0.8;
+	
+}
+
+
+#trzecie3:hover{
+	opacity:0.8;
+	
+}
+
+#czwarte4:hover{
+	opacity:0.8;
+	
+}
+
+@media screen and (max-width: 900px){
+
+	#tag, #tag1{
+		width:94%;
+	}
+
+#pierwsze, #pierwsze1{
+		width:65%;
+    
+	}
